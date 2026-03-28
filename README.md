@@ -72,7 +72,7 @@ savanna-kitchen/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/savanna-kitchen.git
+git clone https://github.com/engibrah/savanna-kitchen.git
 cd savanna-kitchen
 ```
 
