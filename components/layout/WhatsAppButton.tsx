@@ -31,7 +31,7 @@ export default function WhatsAppButton() {
   const [scrolled, setScrolled] = useState(false);
   const [hidden,   setHidden]   = useState(false);
   const lastScrollY              = useRef(0);
-  const hideTimer                = useRef<ReturnType<typeof setTimeout>>();
+  const hideTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   /* ── Entrance delay ── */
   useEffect(() => {
