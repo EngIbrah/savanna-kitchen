@@ -2,7 +2,7 @@
 
 import { NextStudio } from "next-sanity/studio";
 import { Config, StudioProvider, StudioLayout } from "sanity";
-import config from "../../../studio/sanity.config";
+import config from "../../../sanity-config/sanity.config";
 
 export default function StudioPage() {
   return (
